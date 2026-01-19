@@ -25545,14 +25545,6 @@ var __publicField = (obj, key, value) => __defNormalProp(obj, typeof key !== "sy
   function createContextKey$1(defaultValue, options) {
     return { id: Symbol(options === null || options === void 0 ? void 0 : options.description), defaultValue };
   }
-  function useStore$1(store2, opts = {}) {
-    let subscribe = reactExports.useCallback(
-      (onChange) => opts.keys ? listenKeys(store2, opts.keys, onChange) : store2.listen(onChange),
-      [opts.keys, store2]
-    );
-    let get2 = store2.get.bind(store2);
-    return reactExports.useSyncExternalStore(subscribe, get2, get2);
-  }
   var FUNC_ERROR_TEXT = "Expected a function";
   var NAN = 0 / 0;
   var symbolTag = "[object Symbol]";
@@ -53856,6 +53848,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   }
   var styled_default = styled;
   const c$k = /* @__PURE__ */ styled_default("div")({ name: "SDKScrollContainer", class: "s102vcph", propsAsIs: false }), n$d = /* @__PURE__ */ styled_default("div")({ name: "SDKContentContainer", class: "s1meqjjv", propsAsIs: false }), e$g = () => n$d, a$n = /* @__PURE__ */ styled_default(e$g())({ name: "SDKWhiteContainer", class: "s1burm22", propsAsIs: true }), r$j = () => a$n, m$f = /* @__PURE__ */ styled_default(r$j())({ name: "SDKSummaryContainer", class: "sm5r3j5", propsAsIs: true }), l$k = /* @__PURE__ */ styled_default("div")({ name: "TabsContainer", class: "tysxwr6", propsAsIs: false }), o$c = () => n$d, C$8 = /* @__PURE__ */ styled_default(o$c())({ name: "LeaderboardContainer", class: "l9er3b1", propsAsIs: true }), t$j = () => a$n, S$d = /* @__PURE__ */ styled_default(t$j())({ name: "TabsNavContainer", class: "t19dtrb3", propsAsIs: true }), d$k = /* @__PURE__ */ styled_default("div")({ name: "UserSummaryContainer", class: "u1552n3j", propsAsIs: false });
+  var shim$1 = { exports: {} };
+  var useSyncExternalStoreShim_production = {};
   /**
   * @license React
   * use-sync-external-store-shim.production.js
@@ -53900,9 +53894,23 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     return getSnapshot();
   }
   var shim = "undefined" === typeof window || "undefined" === typeof window.document || "undefined" === typeof window.document.createElement ? useSyncExternalStore$1 : useSyncExternalStore$2;
-  void 0 !== React.useSyncExternalStore ? React.useSyncExternalStore : shim;
+  useSyncExternalStoreShim_production.useSyncExternalStore = void 0 !== React.useSyncExternalStore ? React.useSyncExternalStore : shim;
+  {
+    shim$1.exports = useSyncExternalStoreShim_production;
+  }
+  var shimExports = shim$1.exports;
+  function useStore$1(store2, opts = {}) {
+    const subscribe = reactExports.useCallback((onChange) => opts.keys ? listenKeys(store2, opts.keys, onChange) : store2.listen(onChange), [opts.keys, store2]);
+    const get2 = store2.get.bind(store2);
+    return shimExports.useSyncExternalStore(subscribe, get2, get2);
+  }
   const useStore = useStore$1;
-  const useTransition = reactExports.useTransition;
+  const legacyUseTransition = () => {
+    return [false, (fn2) => {
+      window.requestAnimationFrame(() => fn2());
+    }];
+  };
+  const useTransition = legacyUseTransition;
   const R$b = {
     BLUE_QUESTION_ACTION_BTN: "#1589ee",
     WHITE: "#FFFFFF",

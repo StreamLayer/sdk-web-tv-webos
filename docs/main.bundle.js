@@ -485,37 +485,6 @@ $({ target: 'Array', stat: true }, {
 
 /***/ }),
 
-/***/ 1739:
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-var __webpack_unused_export__;
-
-
-__webpack_unused_export__ = ({
-  value: true
-});
-var base_dist_emotionStyledBase = __webpack_require__(3623);
-__webpack_require__(22779);
-__webpack_require__(80223);
-__webpack_require__(41759);
-__webpack_require__(92036);
-__webpack_require__(57080);
-__webpack_require__(51172);
-__webpack_require__(45796);
-var tags = ['a', 'abbr', 'address', 'area', 'article', 'aside', 'audio', 'b', 'base', 'bdi', 'bdo', 'big', 'blockquote', 'body', 'br', 'button', 'canvas', 'caption', 'cite', 'code', 'col', 'colgroup', 'data', 'datalist', 'dd', 'del', 'details', 'dfn', 'dialog', 'div', 'dl', 'dt', 'em', 'embed', 'fieldset', 'figcaption', 'figure', 'footer', 'form', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'head', 'header', 'hgroup', 'hr', 'html', 'i', 'iframe', 'img', 'input', 'ins', 'kbd', 'keygen', 'label', 'legend', 'li', 'link', 'main', 'map', 'mark', 'marquee', 'menu', 'menuitem', 'meta', 'meter', 'nav', 'noscript', 'object', 'ol', 'optgroup', 'option', 'output', 'p', 'param', 'picture', 'pre', 'progress', 'q', 'rp', 'rt', 'ruby', 's', 'samp', 'script', 'section', 'select', 'small', 'source', 'span', 'strong', 'style', 'sub', 'summary', 'sup', 'table', 'tbody', 'td', 'textarea', 'tfoot', 'th', 'thead', 'time', 'title', 'tr', 'track', 'u', 'ul', 'var', 'video', 'wbr',
-// SVG
-'circle', 'clipPath', 'defs', 'ellipse', 'foreignObject', 'g', 'image', 'line', 'linearGradient', 'mask', 'path', 'pattern', 'polygon', 'polyline', 'radialGradient', 'rect', 'stop', 'svg', 'text', 'tspan'];
-
-// bind it to avoid mutating the original function
-var styled = base_dist_emotionStyledBase["default"].bind(null);
-tags.forEach(function (tagName) {
-  styled[tagName] = styled(tagName);
-});
-exports.A = styled;
-
-/***/ }),
-
 /***/ 1949:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -2061,11 +2030,12 @@ $({ target: 'String', proto: true, forced: forcedStringHTMLMethod('link') }, {
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
+var __webpack_unused_export__;
 
 
-Object.defineProperty(exports, "__esModule", ({
+__webpack_unused_export__ = ({
   value: true
-}));
+});
 var _extends = __webpack_require__(22779);
 var react = __webpack_require__(80223);
 var serialize = __webpack_require__(41759);
@@ -2228,7 +2198,7 @@ var createStyled = function createStyled(tag, options) {
     return Styled;
   };
 };
-exports["default"] = createStyled;
+exports.A = createStyled;
 
 /***/ }),
 
@@ -59955,61 +59925,263 @@ var indexAuxXNn0Z = /*#__PURE__*/Object.freeze({
 
 
 
-// EXTERNAL MODULE: ../../../node_modules/.pnpm/@emotion+styled@11.14.1_@emotion+react@11.14.0_@types+react@18.3.11_react@18.3.1__@types+react@18.3.11_react@18.3.1/node_modules/@emotion/styled/dist/emotion-styled.browser.cjs.js
-var emotion_styled_browser_cjs = __webpack_require__(1739);
+// EXTERNAL MODULE: ../../../node_modules/.pnpm/@emotion+styled@11.14.1_@emotion+react@11.14.0_@types+react@18.3.11_react@18.3.1__@types+react@18.3.11_react@18.3.1/node_modules/@emotion/styled/base/dist/emotion-styled-base.browser.cjs.js
+var emotion_styled_base_browser_cjs = __webpack_require__(3623);
 ;// ./src/styles.ts
-var _templateObject, _templateObject2, _templateObject3, _templateObject4, _templateObject5, _templateObject6, _templateObject7, _templateObject8, _templateObject9, _templateObject0, _templateObject1, _templateObject10, _templateObject11, _templateObject12, _templateObject13, _templateObject14, _templateObject15, _templateObject16, _templateObject17, _templateObject18, _templateObject19, _templateObject20, _templateObject21, _templateObject22, _templateObject23, _templateObject24, _templateObject25, _templateObject26, _templateObject27, _templateObject28, _templateObject29, _templateObject30, _templateObject31, _templateObject32, _templateObject33, _templateObject34, _templateObject35, _templateObject36, _templateObject37, _templateObject38, _templateObject39, _templateObject40, _templateObject41;
-function _taggedTemplateLiteral(e, t) { return t || (t = e.slice(0)), Object.freeze(Object.defineProperties(e, { raw: { value: Object.freeze(t) } })); }
 
-var Video = emotion_styled_browser_cjs/* default */.A.video(_templateObject || (_templateObject = _taggedTemplateLiteral(["\n  border-radius: 0;\n"])));
-var Container = emotion_styled_browser_cjs/* default */.A.div(_templateObject2 || (_templateObject2 = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  background: #13212b;\n  overflow: hidden;\n"])));
-var ContentWrapper = emotion_styled_browser_cjs/* default */.A.div(_templateObject3 || (_templateObject3 = _taggedTemplateLiteral(["\n  display: flex;\n  flex: 1;\n  overflow: hidden;\n  gap: 0;\n  padding: 0;\n  width: 100%;\n  height: 100%;\n"])));
-var ChannelsSection = emotion_styled_browser_cjs/* default */.A.div(_templateObject4 || (_templateObject4 = _taggedTemplateLiteral(["\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  overflow: hidden;\n  padding: 40px;\n"])));
-var ChannelsHeader = emotion_styled_browser_cjs/* default */.A.h1(_templateObject5 || (_templateObject5 = _taggedTemplateLiteral(["\n  font-size: 40px;\n  font-weight: 800;\n  color: #ffffff;\n  margin: 0 0 24px 0;\n  letter-spacing: -0.5px;\n"])));
-var ChannelGrid = emotion_styled_browser_cjs/* default */.A.div(_templateObject6 || (_templateObject6 = _taggedTemplateLiteral(["\n  display: grid;\n  grid-template-columns: repeat(3, minmax(0, 1fr));\n  padding: 20px;\n  gap: 20px;\n  padding-right: 8px;\n  flex: 1;\n"])));
-var ChannelCard = emotion_styled_browser_cjs/* default */.A.div(_templateObject7 || (_templateObject7 = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  cursor: pointer;\n  transition: transform 0.2s ease;\n\n  &:hover {\n    transform: scale(1.02);\n  }\n\n  &:focus {\n    outline: none;\n  }\n"])));
-var ChannelThumbnailWrapper = emotion_styled_browser_cjs/* default */.A.div(_templateObject8 || (_templateObject8 = _taggedTemplateLiteral(["\n  width: 100%;\n  aspect-ratio: 16/9;\n  border-radius: 12px;\n  overflow: hidden;\n  position: relative;\n  border: ", ";\n  transition:\n    border-color 0.2s ease,\n    box-shadow 0.2s ease;\n  margin-bottom: 0;\n  box-shadow: ", ";\n"])), function (_ref) {
+function _EMOTION_STRINGIFIED_CSS_ERROR__() { return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop)."; }
+var Video = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("video",  true ? {
+  target: "e1ysgmad42"
+} : 0)( true ? {
+  name: "1ch9yvl",
+  styles: "border-radius:0"
+} : 0);
+var Container = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad41"
+} : 0)( true ? {
+  name: "1bgfhjy",
+  styles: "width:100%;height:100%;display:flex;flex-direction:column;background:#13212b;overflow:hidden"
+} : 0);
+var ContentWrapper = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad40"
+} : 0)( true ? {
+  name: "qxtl2y",
+  styles: "display:flex;flex:1;overflow:hidden;gap:0;padding:0;width:100%;height:100%"
+} : 0);
+var ChannelsSection = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad39"
+} : 0)( true ? {
+  name: "abd0sg",
+  styles: "flex:1;display:flex;flex-direction:column;overflow:hidden;padding:40px"
+} : 0);
+var ChannelsHeader = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("h1",  true ? {
+  target: "e1ysgmad38"
+} : 0)( true ? {
+  name: "x9jn0k",
+  styles: "font-size:40px;font-weight:800;color:#ffffff;margin:0 0 24px 0;letter-spacing:-0.5px"
+} : 0);
+var ChannelGrid = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad37"
+} : 0)( true ? {
+  name: "178bx5c",
+  styles: "display:grid;grid-template-columns:repeat(3, minmax(0, 1fr));padding:20px;gap:20px;padding-right:8px;flex:1"
+} : 0);
+var ChannelCard = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad36"
+} : 0)( true ? {
+  name: "d5g05f",
+  styles: "display:flex;flex-direction:column;cursor:pointer;transition:transform 0.2s ease;&:hover{transform:scale(1.02);}&:focus{outline:none;}"
+} : 0);
+var ChannelThumbnailWrapper = /*#__PURE__*/(/* unused pure expression or super */ null && (_styled("div",  true ? {
+  target: "e1ysgmad35"
+} : 0)("width:100%;aspect-ratio:16/9;border-radius:12px;overflow:hidden;position:relative;border:", function (_ref) {
   var selected = _ref.selected;
   return selected ? '3px solid #ffffff' : '3px solid rgba(255, 255, 255, 0.15)';
-}, function (_ref2) {
+}, ";transition:border-color 0.2s ease,box-shadow 0.2s ease;margin-bottom:0;box-shadow:", function (_ref2) {
   var selected = _ref2.selected;
   return selected ? '0 0 0 6px rgba(255,255,255,0.08)' : 'none';
-});
-var ChannelThumbnail = emotion_styled_browser_cjs/* default */.A.div(_templateObject9 || (_templateObject9 = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: white;\n  font-size: 24px;\n  font-weight: bold;\n  position: relative;\n  overflow: hidden;\n\n  img {\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n  }\n"])));
-var ChannelOverlay = emotion_styled_browser_cjs/* default */.A.div(_templateObject0 || (_templateObject0 = _taggedTemplateLiteral(["\n  position: absolute;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  padding: 12px 14px;\n  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);\n  display: flex;\n  align-items: flex-end;\n  justify-content: space-between;\n  gap: 8px;\n"])));
-var ChannelOverlayName = emotion_styled_browser_cjs/* default */.A.div(_templateObject1 || (_templateObject1 = _taggedTemplateLiteral(["\n  color: #ffffff;\n  font-size: 16px;\n  font-weight: 700;\n  line-height: 1.3;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  display: -webkit-box;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n"])));
-var DurationBadge = emotion_styled_browser_cjs/* default */.A.div(_templateObject10 || (_templateObject10 = _taggedTemplateLiteral(["\n  color: #0b1520;\n  background: #ffffff;\n  border-radius: 6px;\n  padding: 4px 8px;\n  font-size: 13px;\n  font-weight: 700;\n  line-height: 1;\n  opacity: 0.9;\n"])));
-var ChannelInfo = emotion_styled_browser_cjs/* default */.A.div(_templateObject11 || (_templateObject11 = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  gap: 4px;\n  margin-top: 10px;\n"])));
-var ChannelName = emotion_styled_browser_cjs/* default */.A.div(_templateObject12 || (_templateObject12 = _taggedTemplateLiteral(["\n  color: #ffffff;\n  font-size: 16px;\n  font-weight: 600;\n  line-height: 1.3;\n  overflow: hidden;\n  text-overflow: ellipsis;\n  display: -webkit-box;\n  -webkit-line-clamp: 2;\n  -webkit-box-orient: vertical;\n"])));
-var ChannelDuration = emotion_styled_browser_cjs/* default */.A.div(_templateObject13 || (_templateObject13 = _taggedTemplateLiteral(["\n  color: rgba(255, 255, 255, 0.6);\n  font-size: 14px;\n  font-weight: 400;\n"])));
-var VideoContainer = emotion_styled_browser_cjs/* default */.A.div(_templateObject14 || (_templateObject14 = _taggedTemplateLiteral(["\n  flex: 1;\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n  position: relative;\n  padding: 0;\n  /*\n  .SL-AdvertisementWebOs--notification {\n    position: absolute;\n    left: 0;\n    bottom: 0;\n    top: auto;\n    z-index: 1000;\n  }\n\n  .SL-AdvertisementWebOs--banner {\n    position: absolute;\n    left: 10px;\n    right: 360px;\n    bottom: 10px;\n    top: auto;\n    z-index: 1000;\n    height: 90px;\n  }\n\n  .SL-AdvertisementWebOs--sidebar {\n    position: absolute;\n    width: 350px;\n    right: 0;\n    top: 0;\n    bottom: 0;\n  }\n\n  .SL_PauseAd {\n    width: 300px !important;\n    left: auto !important;\n  } */\n"])));
-var VideoWrapper = emotion_styled_browser_cjs/* default */.A.div(_templateObject15 || (_templateObject15 = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100%;\n  position: relative;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n"])));
-var TopBar = emotion_styled_browser_cjs/* default */.A.div(_templateObject16 || (_templateObject16 = _taggedTemplateLiteral(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  height: 80px;\n  display: flex;\n  align-items: center;\n  padding: 0 24px;\n  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);\n  z-index: 30;\n  opacity: 0;\n  transition: opacity 0.3s ease;\n\n  ", ":hover & {\n    opacity: 1;\n  }\n\n  ", ":focus-within & {\n    opacity: 1;\n  }\n"])), ContentWrapper, ContentWrapper);
-var BackButton = emotion_styled_browser_cjs/* default */.A.button(_templateObject17 || (_templateObject17 = _taggedTemplateLiteral(["\n  appearance: none;\n  border: none;\n  outline: none;\n  background: rgba(255, 255, 255, 0.12);\n  color: #fff;\n  height: 44px;\n  padding: 0 40px;\n  border-radius: 12px;\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  gap: 10px;\n  font-size: 26px;\n  font-weight: 600;\n  cursor: pointer;\n  backdrop-filter: blur(8px);\n  text-transform: uppercase;\n  letter-spacing: 1.37px;\n  line-height: 32px;\n  transition:\n    background 0.2s ease,\n    transform 0.1s ease,\n    box-shadow 0.2s ease;\n\n  svg {\n    width: 18px;\n    height: 18px;\n  }\n\n  &:hover {\n    background: rgba(255, 255, 255, 0.18);\n  }\n\n  &:active,\n  &:focus,\n  &[data-tv-focused='true'] {\n    background: #ffffff;\n    color: #000000;\n    box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.25);\n    transform: scale(0.98);\n  }\n"])));
-var PlayPauseButton = emotion_styled_browser_cjs/* default */.A.button(_templateObject18 || (_templateObject18 = _taggedTemplateLiteral(["\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  outline: none;\n\n  border: none;\n  background: none;\n  color: rgba(0, 0, 0, 0.8);\n\n  cursor: pointer;\n  z-index: 10;\n  transition: all 0.2s ease;\n  opacity: 0;\n\n  font-size: 80px;\n\n  font-variation-settings:\n    'FILL' 1,\n    'wght' 700,\n    'GRAD' 0,\n    'opsz' 24;\n\n  &:hover {\n    transform: translate(-50%, -50%) scale(1.1);\n  }\n\n  &:active {\n    transform: translate(-50%, -50%) scale(0.95);\n  }\n\n  &:focus {\n    color: rgba(255, 255, 255, 0.8);\n  }\n\n  ", ":hover & {\n    opacity: 1;\n  }\n\n  ", ":focus-within & {\n    opacity: 1;\n  }\n"])), ContentWrapper, ContentWrapper);
-var PauseAdOverlay = emotion_styled_browser_cjs/* default */.A.div(_templateObject19 || (_templateObject19 = _taggedTemplateLiteral(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  z-index: 20;\n  overflow: hidden;\n  animation: fadeIn 0.3s ease-in-out;\n\n  &.pause-ad-closing {\n    animation: fadeOut 0.3s ease-in-out forwards;\n  }\n\n  @keyframes fadeIn {\n    from {\n      opacity: 0;\n      scale: 1.5;\n    }\n    to {\n      opacity: 1;\n      scale: 1;\n    }\n  }\n\n  @keyframes fadeOut {\n    from {\n      opacity: 1;\n      scale: 1;\n    }\n    to {\n      opacity: 0;\n      scale: 1.5;\n    }\n  }\n"])));
-var PauseAdContent = emotion_styled_browser_cjs/* default */.A.div(_templateObject20 || (_templateObject20 = _taggedTemplateLiteral(["\n  position: relative;\n  width: 100%;\n  height: 100%;\n"])));
-var PauseAdGradientLeft = emotion_styled_browser_cjs/* default */.A.div(_templateObject21 || (_templateObject21 = _taggedTemplateLiteral(["\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  width: 737px;\n  height: 100%;\n  background: linear-gradient(to right, #000000 0%, rgba(10, 14, 19, 0) 100%);\n  opacity: 0.5;\n  pointer-events: none;\n"])));
-var PauseAdGradientRight = emotion_styled_browser_cjs/* default */.A.div(_templateObject22 || (_templateObject22 = _taggedTemplateLiteral(["\n  position: absolute;\n  bottom: 0;\n  right: 0;\n  left: calc(58.33% + 63px);\n  height: 100%;\n  background: linear-gradient(to right, rgba(10, 14, 19, 0) 0%, #000000 100%);\n  pointer-events: none;\n"])));
-var PauseAdGradientBottom = emotion_styled_browser_cjs/* default */.A.div(_templateObject23 || (_templateObject23 = _taggedTemplateLiteral(["\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  height: 320px;\n  background: linear-gradient(to bottom, rgba(10, 14, 19, 0) 0%, #0a0e13 80%);\n  opacity: 0.5;\n  pointer-events: none;\n"])));
-var PauseAdTopLeft = emotion_styled_browser_cjs/* default */.A.div(_templateObject24 || (_templateObject24 = _taggedTemplateLiteral(["\n  position: absolute;\n  top: 60px;\n  left: 80px;\n  display: flex;\n  flex-direction: column;\n  gap: 12px;\n  z-index: 21;\n"])));
-var PauseAdTitle = emotion_styled_browser_cjs/* default */.A.h2(_templateObject25 || (_templateObject25 = _taggedTemplateLiteral(["\n  color: #ffffff;\n  font-size: 48px;\n  font-weight: 700;\n  margin: 0;\n  line-height: 1.2;\n  letter-spacing: 0.38px;\n"])));
-var PauseAdCaption = emotion_styled_browser_cjs/* default */.A.p(_templateObject26 || (_templateObject26 = _taggedTemplateLiteral(["\n  color: rgba(255, 255, 255, 0.8);\n  font-size: 26px;\n  font-weight: 400;\n  margin: 0;\n  line-height: 1.35;\n  letter-spacing: -0.32px;\n"])));
-var PauseAdBottomLeft = emotion_styled_browser_cjs/* default */.A.div(_templateObject27 || (_templateObject27 = _taggedTemplateLiteral(["\n  position: absolute;\n  bottom: 60px;\n  left: 60px;\n  z-index: 21;\n"])));
-var PauseAdPlayButton = emotion_styled_browser_cjs/* default */.A.button(_templateObject28 || (_templateObject28 = _taggedTemplateLiteral(["\n  width: 136px;\n  height: 136px;\n  border: none;\n  background-color: transparent;\n  background-size: contain;\n  background-repeat: no-repeat;\n  background-position: center;\n  cursor: pointer;\n  transition: all 0.2s ease;\n  padding: 0;\n\n  &:hover {\n    transform: scale(1.1);\n  }\n\n  &:active {\n    transform: scale(0.95);\n  }\n"])));
-var PauseAdSidebar = emotion_styled_browser_cjs/* default */.A.div(_templateObject29 || (_templateObject29 = _taggedTemplateLiteral(["\n  position: absolute;\n  top: 50%;\n  right: 30px;\n  transform: translateY(-50%);\n  width: 315px;\n  height: 400px;\n  z-index: 21;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  gap: 12px;\n"])));
-var PauseAdPlaceholder = emotion_styled_browser_cjs/* default */.A.div(_templateObject30 || (_templateObject30 = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100%;\n  background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);\n  border-radius: 8px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  color: white;\n  font-size: 14px;\n  text-align: center;\n  padding: 20px;\n  border: 1px solid rgba(255, 255, 255, 0.2);\n"])));
-var BottomBar = emotion_styled_browser_cjs/* default */.A.div(_templateObject31 || (_templateObject31 = _taggedTemplateLiteral(["\n  position: absolute;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  display: flex;\n  flex-direction: column;\n  padding: 0 42px 42px;\n  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);\n  z-index: 30;\n  opacity: 0;\n  transition: opacity 0.3s ease;\n\n  ", ":hover & {\n    opacity: 1;\n  }\n\n  ", ":focus-within & {\n    opacity: 1;\n  }\n"])), ContentWrapper, ContentWrapper);
-var VideoInfo = emotion_styled_browser_cjs/* default */.A.div(_templateObject32 || (_templateObject32 = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n  margin-bottom: 16px;\n"])));
-var LiveChannelLabel = emotion_styled_browser_cjs/* default */.A.div(_templateObject33 || (_templateObject33 = _taggedTemplateLiteral(["\n  color: #ffffff;\n  font-size: 14px;\n  font-weight: 600;\n  text-transform: uppercase;\n  letter-spacing: 0.5px;\n  opacity: 0.8;\n"])));
-var VideoTitle = emotion_styled_browser_cjs/* default */.A.h2(_templateObject34 || (_templateObject34 = _taggedTemplateLiteral(["\n  color: #ffffff;\n  font-size: 32px;\n  font-weight: 700;\n  margin: 0;\n  line-height: 1.2;\n"])));
-var TimelineContainer = emotion_styled_browser_cjs/* default */.A.div(_templateObject35 || (_templateObject35 = _taggedTemplateLiteral(["\n  display: flex;\n  flex-direction: column;\n  gap: 8px;\n"])));
-var TimelineBar = emotion_styled_browser_cjs/* default */.A.div(_templateObject36 || (_templateObject36 = _taggedTemplateLiteral(["\n  position: relative;\n  width: 100%;\n  height: 20px;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  outline: none;\n  border-radius: 4px;\n\n  &::before {\n    content: '';\n    position: absolute;\n    left: 0;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    height: 4px;\n    background: rgba(255, 255, 255, 0.3);\n    border-radius: 2px;\n    transition: height 0.15s ease;\n  }\n\n  &[data-tv-focused='true'] {\n    outline: 2px solid rgba(255, 255, 255, 0.8);\n    outline-offset: 4px;\n\n    &::before {\n      height: 6px;\n      background: rgba(255, 255, 255, 0.5);\n    }\n  }\n"])));
-var TimelineProgress = emotion_styled_browser_cjs/* default */.A.div(_templateObject37 || (_templateObject37 = _taggedTemplateLiteral(["\n  position: absolute;\n  left: 0;\n  top: 50%;\n  transform: translateY(-50%);\n  height: 4px;\n  background: #ffffff;\n  border-radius: 2px;\n  transition: width 0.1s linear;\n  pointer-events: none;\n  z-index: 1;\n"])));
-var TimelineHandle = emotion_styled_browser_cjs/* default */.A.div(_templateObject38 || (_templateObject38 = _taggedTemplateLiteral(["\n  position: absolute;\n  top: 50%;\n  transform: translate(-50%, -50%);\n  width: 16px;\n  height: 16px;\n  background: #ffffff;\n  border-radius: 50%;\n  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);\n  transition: left 0.1s linear;\n  pointer-events: none;\n  z-index: 2;\n"])));
-var TimeDisplay = emotion_styled_browser_cjs/* default */.A.div(_templateObject39 || (_templateObject39 = _taggedTemplateLiteral(["\n  color: #ffffff;\n  font-size: 14px;\n  font-weight: 500;\n  opacity: 0.9;\n"])));
-var ExternalAdContainer = emotion_styled_browser_cjs/* default */.A.div(_templateObject40 || (_templateObject40 = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100%;\n  aspect-ratio: 1 / 1;\n  position: relative;\n\n  .video-js {\n    background: transparent;\n    width: 100%;\n    height: 100%;\n    object-fit: contain;\n  }\n\n  .video-js .vjs-tech {\n    position: relative;\n  }\n\n  video {\n    width: 100%;\n    height: 100%;\n    object-fit: contain;\n  }\n\n  .vast-skip-button {\n    display: block;\n    position: absolute;\n    bottom: 5px;\n    right: 0;\n    width: auto;\n    background-color: rgba(0, 0, 0, 0.5);\n    color: #fff;\n    font-size: 12px;\n    padding: 10px;\n    opacity: 0.9;\n    z-index: 2;\n    cursor: pointer;\n    border: 1px solid #fff;\n\n    &:hover {\n      opacity: 1;\n    }\n  }\n\n  .vast-remaining-time {\n    display: block;\n    position: absolute;\n    bottom: 35px;\n    left: 75px;\n    width: auto;\n    color: #aaa;\n    font-size: 12px;\n    font-style: italic;\n    line-height: 12px;\n    z-index: 2;\n  }\n\n  .vast-remaining-time-icon {\n    position: absolute;\n    color: #aaa !important;\n    font-size: 20px !important;\n    z-index: 2;\n  }\n\n  .vast-remaining-time-icon:focus {\n    text-shadow: 0 0 1em #fff;\n  }\n\n  .vast-remaining-time-icon-play {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    width: 44px;\n    height: 44px;\n    border-radius: 50%;\n    padding: 0;\n\n    background-color: rgba(0, 0, 0, 0.5);\n    background-repeat: no-repeat;\n    background-position: center;\n\n    cursor: pointer;\n\n    &:before {\n      content: '';\n      display: none;\n    }\n  }\n"])));
-var PlaceholderText = emotion_styled_browser_cjs/* default */.A.div(_templateObject41 || (_templateObject41 = _taggedTemplateLiteral(["\n  position: fixed;\n  top: 50%;\n  left: 50%;\n  transform: translateX(-50%);\n  color: #fff;\n"])));
+}, ";" + ( true ? "" : 0))));
+var ChannelThumbnail = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad34"
+} : 0)( true ? {
+  name: "xjmvv8",
+  styles: "width:100%;height:100%;background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);display:flex;align-items:center;justify-content:center;color:white;font-size:24px;font-weight:bold;position:relative;overflow:hidden;img{width:100%;height:100%;object-fit:cover;}"
+} : 0);
+var ChannelOverlay = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad33"
+} : 0)( true ? {
+  name: "1yihs1v",
+  styles: "position:absolute;left:0;right:0;bottom:0;padding:12px 14px;background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);display:flex;align-items:flex-end;justify-content:space-between;gap:8px"
+} : 0);
+var ChannelOverlayName = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad32"
+} : 0)( true ? {
+  name: "1o8pnw0",
+  styles: "color:#ffffff;font-size:16px;font-weight:700;line-height:1.3;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical"
+} : 0);
+var DurationBadge = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad31"
+} : 0)( true ? {
+  name: "6g2kch",
+  styles: "color:#0b1520;background:#ffffff;border-radius:6px;padding:4px 8px;font-size:13px;font-weight:700;line-height:1;opacity:0.9"
+} : 0);
+var ChannelInfo = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad30"
+} : 0)( true ? {
+  name: "1gnq0oz",
+  styles: "display:flex;flex-direction:column;gap:4px;margin-top:10px"
+} : 0);
+var ChannelName = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad29"
+} : 0)( true ? {
+  name: "d50sue",
+  styles: "color:#ffffff;font-size:16px;font-weight:600;line-height:1.3;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical"
+} : 0);
+var ChannelDuration = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad28"
+} : 0)( true ? {
+  name: "ayug0d",
+  styles: "color:rgba(255, 255, 255, 0.6);font-size:14px;font-weight:400"
+} : 0);
+var VideoContainer = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad27"
+} : 0)( true ? {
+  name: "17am7pp",
+  styles: "flex:1;display:flex;align-items:flex-start;justify-content:center;position:relative;padding:0"
+} : 0);
+var VideoWrapper = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad26"
+} : 0)( true ? {
+  name: "176c51h",
+  styles: "width:100%;height:100%;position:relative;display:flex;align-items:center;justify-content:center"
+} : 0);
+var TopBar = /*#__PURE__*/(/* unused pure expression or super */ null && (_styled("div",  true ? {
+  target: "e1ysgmad25"
+} : 0)("position:absolute;top:0;left:0;right:0;height:80px;display:flex;align-items:center;padding:0 24px;background:linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);z-index:30;opacity:0;transition:opacity 0.3s ease;", ContentWrapper, ":hover &{opacity:1;}", ContentWrapper, ":focus-within &{opacity:1;}" + ( true ? "" : 0))));
+var BackButton = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("button",  true ? {
+  target: "e1ysgmad24"
+} : 0)( true ? {
+  name: "w0nt1b",
+  styles: "appearance:none;border:none;outline:none;background:rgba(255, 255, 255, 0.12);color:#fff;height:44px;padding:0 40px;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-size:26px;font-weight:600;cursor:pointer;backdrop-filter:blur(8px);text-transform:uppercase;letter-spacing:1.37px;line-height:32px;transition:background 0.2s ease,transform 0.1s ease,box-shadow 0.2s ease;svg{width:18px;height:18px;}&:hover{background:rgba(255, 255, 255, 0.18);}&:active,&:focus,&[data-tv-focused='true']{background:#ffffff;color:#000000;box-shadow:0px 15px 20px 0px rgba(0, 0, 0, 0.25);transform:scale(0.98);}"
+} : 0);
+var PlayPauseButton = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("button",  true ? {
+  target: "e1ysgmad23"
+} : 0)("position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);outline:none;border:none;background:none;color:rgba(0, 0, 0, 0.8);cursor:pointer;z-index:10;transition:all 0.2s ease;opacity:0;font-size:80px;font-variation-settings:'FILL' 1,'wght' 700,'GRAD' 0,'opsz' 24;&:hover{transform:translate(-50%, -50%) scale(1.1);}&:active{transform:translate(-50%, -50%) scale(0.95);}&:focus{color:rgba(255, 255, 255, 0.8);}", ContentWrapper, ":hover &{opacity:1;}", ContentWrapper, ":focus-within &{opacity:1;}" + ( true ? "" : 0));
+var PauseAdOverlay = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad22"
+} : 0)( true ? {
+  name: "6tywdj",
+  styles: "position:absolute;top:0;left:0;right:0;bottom:0;z-index:20;overflow:hidden;animation:fadeIn 0.3s ease-in-out;&.pause-ad-closing{animation:fadeOut 0.3s ease-in-out forwards;}@keyframes fadeIn{from{opacity:0;scale:1.5;}to{opacity:1;scale:1;}}@keyframes fadeOut{from{opacity:1;scale:1;}to{opacity:0;scale:1.5;}}"
+} : 0);
+var PauseAdContent = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad21"
+} : 0)( true ? {
+  name: "zxsb69",
+  styles: "position:relative;width:100%;height:100%"
+} : 0);
+var PauseAdGradientLeft = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad20"
+} : 0)( true ? {
+  name: "1rpfje7",
+  styles: "position:absolute;bottom:0;left:0;width:737px;height:100%;background:linear-gradient(to right, #000000 0%, rgba(10, 14, 19, 0) 100%);opacity:0.5;pointer-events:none"
+} : 0);
+var PauseAdGradientRight = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad19"
+} : 0)( true ? {
+  name: "1mfu4na",
+  styles: "position:absolute;bottom:0;right:0;left:calc(58.33% + 63px);height:100%;background:linear-gradient(to right, rgba(10, 14, 19, 0) 0%, #000000 100%);pointer-events:none"
+} : 0);
+var PauseAdGradientBottom = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad18"
+} : 0)( true ? {
+  name: "qs5fbz",
+  styles: "position:absolute;bottom:0;left:0;right:0;height:320px;background:linear-gradient(to bottom, rgba(10, 14, 19, 0) 0%, #0a0e13 80%);opacity:0.5;pointer-events:none"
+} : 0);
+var PauseAdTopLeft = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad17"
+} : 0)( true ? {
+  name: "16ufwa7",
+  styles: "position:absolute;top:60px;left:80px;display:flex;flex-direction:column;gap:12px;z-index:21"
+} : 0);
+var PauseAdTitle = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("h2",  true ? {
+  target: "e1ysgmad16"
+} : 0)( true ? {
+  name: "1qc0270",
+  styles: "color:#ffffff;font-size:48px;font-weight:700;margin:0;line-height:1.2;letter-spacing:0.38px"
+} : 0);
+var PauseAdCaption = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("p",  true ? {
+  target: "e1ysgmad15"
+} : 0)( true ? {
+  name: "9yn3e1",
+  styles: "color:rgba(255, 255, 255, 0.8);font-size:26px;font-weight:400;margin:0;line-height:1.35;letter-spacing:-0.32px"
+} : 0);
+var PauseAdBottomLeft = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad14"
+} : 0)( true ? {
+  name: "1ndbydm",
+  styles: "position:absolute;bottom:60px;left:60px;z-index:21"
+} : 0);
+var PauseAdPlayButton = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("button",  true ? {
+  target: "e1ysgmad13"
+} : 0)( true ? {
+  name: "14rsjq0",
+  styles: "width:136px;height:136px;border:none;background-color:transparent;background-size:contain;background-repeat:no-repeat;background-position:center;cursor:pointer;transition:all 0.2s ease;padding:0;&:hover{transform:scale(1.1);}&:active{transform:scale(0.95);}"
+} : 0);
+var PauseAdSidebar = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad12"
+} : 0)( true ? {
+  name: "16jq11b",
+  styles: "position:absolute;top:50%;right:30px;transform:translateY(-50%);width:315px;height:400px;z-index:21;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px"
+} : 0);
+var PauseAdPlaceholder = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad11"
+} : 0)( true ? {
+  name: "nvqrq0",
+  styles: "width:100%;height:100%;background:linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);border-radius:8px;display:flex;align-items:center;justify-content:center;color:white;font-size:14px;text-align:center;padding:20px;border:1px solid rgba(255, 255, 255, 0.2)"
+} : 0);
+var BottomBar = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad10"
+} : 0)("position:absolute;bottom:0;left:0;right:0;display:flex;flex-direction:column;padding:0 42px 42px;background:linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);z-index:30;opacity:0;transition:opacity 0.3s ease;", ContentWrapper, ":hover &{opacity:1;}", ContentWrapper, ":focus-within &{opacity:1;}" + ( true ? "" : 0));
+var VideoInfo = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad9"
+} : 0)( true ? {
+  name: "1izjgb",
+  styles: "display:flex;flex-direction:column;gap:8px;margin-bottom:16px"
+} : 0);
+var LiveChannelLabel = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad8"
+} : 0)( true ? {
+  name: "1qca89k",
+  styles: "color:#ffffff;font-size:14px;font-weight:600;text-transform:uppercase;letter-spacing:0.5px;opacity:0.8"
+} : 0);
+var VideoTitle = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("h2",  true ? {
+  target: "e1ysgmad7"
+} : 0)( true ? {
+  name: "noruz5",
+  styles: "color:#ffffff;font-size:32px;font-weight:700;margin:0;line-height:1.2"
+} : 0);
+var TimelineContainer = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad6"
+} : 0)( true ? {
+  name: "3w0yoi",
+  styles: "display:flex;flex-direction:column;gap:8px"
+} : 0);
+var TimelineBar = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad5"
+} : 0)( true ? {
+  name: "d21f8c",
+  styles: "position:relative;width:100%;height:20px;cursor:pointer;display:flex;align-items:center;outline:none;border-radius:4px;&::before{content:'';position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);height:4px;background:rgba(255, 255, 255, 0.3);border-radius:2px;transition:height 0.15s ease;}&[data-tv-focused='true']{outline:2px solid rgba(255, 255, 255, 0.8);outline-offset:4px;&::before{height:6px;background:rgba(255, 255, 255, 0.5);}}"
+} : 0);
+var TimelineProgress = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad4"
+} : 0)( true ? {
+  name: "lz1ug0",
+  styles: "position:absolute;left:0;top:50%;transform:translateY(-50%);height:4px;background:#ffffff;border-radius:2px;transition:width 0.1s linear;pointer-events:none;z-index:1"
+} : 0);
+var TimelineHandle = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad3"
+} : 0)( true ? {
+  name: "w5fsq4",
+  styles: "position:absolute;top:50%;transform:translate(-50%, -50%);width:16px;height:16px;background:#ffffff;border-radius:50%;box-shadow:0px 2px 8px rgba(0, 0, 0, 0.3);transition:left 0.1s linear;pointer-events:none;z-index:2"
+} : 0);
+var TimeDisplay = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad2"
+} : 0)( true ? {
+  name: "128qu0n",
+  styles: "color:#ffffff;font-size:14px;font-weight:500;opacity:0.9"
+} : 0);
+var ExternalAdContainer = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad1"
+} : 0)( true ? {
+  name: "i2o5oo",
+  styles: "width:100%;height:100%;aspect-ratio:1/1;position:relative;.video-js{background:transparent;width:100%;height:100%;object-fit:contain;}.video-js .vjs-tech{position:relative;}video{width:100%;height:100%;object-fit:contain;}.vast-skip-button{display:block;position:absolute;bottom:5px;right:0;width:auto;background-color:rgba(0, 0, 0, 0.5);color:#fff;font-size:12px;padding:10px;opacity:0.9;z-index:2;cursor:pointer;border:1px solid #fff;&:hover{opacity:1;}}.vast-remaining-time{display:block;position:absolute;bottom:35px;left:75px;width:auto;color:#aaa;font-size:12px;font-style:italic;line-height:12px;z-index:2;}.vast-remaining-time-icon{position:absolute;color:#aaa!important;font-size:20px!important;z-index:2;}.vast-remaining-time-icon:focus{text-shadow:0 0 1em #fff;}.vast-remaining-time-icon-play{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:44px;height:44px;border-radius:50%;padding:0;background-color:rgba(0, 0, 0, 0.5);background-repeat:no-repeat;background-position:center;cursor:pointer;&:before{content:'';display:none;}}"
+} : 0);
+var PlaceholderText = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
+  target: "e1ysgmad0"
+} : 0)( true ? {
+  name: "1tx7fy1",
+  styles: "position:fixed;top:50%;left:50%;transform:translateX(-50%);color:#fff"
+} : 0);
 // EXTERNAL MODULE: ../../../node_modules/.pnpm/hls.js@1.6.13/node_modules/hls.js/dist/hls.js
 var dist_hls = __webpack_require__(37926);
 var hls_default = /*#__PURE__*/__webpack_require__.n(dist_hls);

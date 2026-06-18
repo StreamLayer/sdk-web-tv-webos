@@ -125005,7 +125005,7 @@ var VideoView = function VideoView() {
     "aria-label": "Play/Pause",
     onClick: handleSelect,
     className: "material-symbols-outlined"
-  }, isPlaying ? 'pause_circle' : 'play_circle'), showControls && channel.name && /*#__PURE__*/react.createElement(PauseAdTopLeft, null, /*#__PURE__*/react.createElement(PauseAdTitle, null, channel.name.split(' ')[0]), channel.name.split(' ')[1] && /*#__PURE__*/react.createElement(PauseAdCaption, null, channel.name.split(' ').slice(1).join(' ')))))));
+  }, isPlaying ? 'pause_circle' : 'play_circle'), (showControls || pauseAdRendered) && channel.name && /*#__PURE__*/react.createElement(PauseAdTopLeft, null, /*#__PURE__*/react.createElement(PauseAdTitle, null, channel.name.split(' ')[0]), channel.name.split(' ')[1] && /*#__PURE__*/react.createElement(PauseAdCaption, null, channel.name.split(' ').slice(1).join(' ')))))));
 };
 ;// ./src/classic/SimpleApp.tsx
 // @ts-ignore

@@ -124360,7 +124360,7 @@ var BackButton = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)
 } : 0);
 var PlayPauseButton = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("button",  true ? {
   target: "e1ysgmad23"
-} : 0)("position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);outline:none;border:none;background:none;color:rgba(0, 0, 0, 0.8);cursor:pointer;z-index:10;transition:all 0.2s ease;opacity:0;pointer-events:none;border-radius:50%;font-size:80px;font-variation-settings:'FILL' 1,'wght' 700,'GRAD' 0,'opsz' 24;&:hover{transform:translate(-50%, -50%) scale(1.1);color:rgba(255, 255, 255, 0.8);}&:active{transform:translate(-50%, -50%) scale(0.95);}&:focus{color:rgba(255, 255, 255, 0.8);}@media (hover: hover){", ContentWrapper, ":hover &{opacity:1;pointer-events:auto;}}", ContentWrapper, ":focus-within &{opacity:1;pointer-events:auto;}", ContentWrapper, ".controls-visible &{opacity:1;pointer-events:auto;}" + ( true ? "" : 0));
+} : 0)("position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);outline:none;border:none;background:none;color:rgba(0, 0, 0, 0.8);cursor:pointer;z-index:10;transition:all 0.2s ease;opacity:0;pointer-events:none;border-radius:50%;font-size:80px;font-variation-settings:'FILL' 1,'wght' 700,'GRAD' 0,'opsz' 24;&:hover{transform:translate(-50%, -50%) scale(1.1);color:rgba(255, 255, 255, 0.8);}&:active{transform:translate(-50%, -50%) scale(0.95);}@media (hover: hover){", ContentWrapper, ":hover &{opacity:1;pointer-events:auto;}}", ContentWrapper, ":focus-within &{opacity:1;pointer-events:auto;}", ContentWrapper, ".controls-visible &{opacity:1;pointer-events:auto;}" + ( true ? "" : 0));
 var PauseAdOverlay = /*#__PURE__*/(0,emotion_styled_base_browser_cjs/* default */.A)("div",  true ? {
   target: "e1ysgmad22"
 } : 0)( true ? {
@@ -125005,7 +125005,7 @@ var VideoView = function VideoView() {
     "aria-label": "Play/Pause",
     onClick: handleSelect,
     className: "material-symbols-outlined"
-  }, isPlaying ? 'pause_circle' : 'play_circle'), (showControls || pauseAdRendered) && channel.name && /*#__PURE__*/react.createElement(PauseAdTopLeft, null, /*#__PURE__*/react.createElement(PauseAdTitle, null, channel.name.split(' ')[0]), channel.name.split(' ')[1] && /*#__PURE__*/react.createElement(PauseAdCaption, null, channel.name.split(' ').slice(1).join(' ')))))));
+  }, isPlaying ? 'pause_circle' : 'play_circle'), pauseAdRendered && channel.name && /*#__PURE__*/react.createElement(PauseAdTopLeft, null, /*#__PURE__*/react.createElement(PauseAdCaption, null, "LIVE CHANNEL"), /*#__PURE__*/react.createElement(PauseAdTitle, null, channel.name))))));
 };
 ;// ./src/classic/SimpleApp.tsx
 // @ts-ignore
